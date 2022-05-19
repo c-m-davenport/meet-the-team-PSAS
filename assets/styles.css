@@ -1,2 +1,33 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("Oswald-Medium.woff2") format("woff2"),
+         url("Oswald-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Oswald";
+    font-weight: 600;
+    background-color: #6a8037;
+    color: #f9f9f9;
+    margin-top: 0;
+    text-align: center;
+    font-size: 5em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+h2 {
+    font-family: "Oswald";
+}
+
 body {
+    font-family: "Oswald";
+    padding: 0;
+    margin: 0;
+}
+
+.about-container {
+    display: inline-flex;
 }
